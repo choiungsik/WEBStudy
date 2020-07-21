@@ -1,0 +1,26 @@
+<%@page import="java.sql.Connection"%>
+<%@page import="java.sql.DriverManager"%>
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<%
+		request.setCharacterEncoding("EUC-KR");
+	String id = request.getParameter("id");
+	String pw = request.getParameter("pw");
+	String name = request.getParameter("name");
+	
+	Class.forName("oracle.jdbc.driver.OracleDriver");  //strim과 같이 ojdbc6 안에 있는 class파일을 가져옴
+	
+	String db_url = "jdbc:oracle:thin:@localhost:1521:xe";
+	String db_id = "hr";
+	String db_pw = "hr";
+	Connection conn = DriverManager.getConnection(db_url, db_id, db_pw);
+	%>
+</body>
+</html>

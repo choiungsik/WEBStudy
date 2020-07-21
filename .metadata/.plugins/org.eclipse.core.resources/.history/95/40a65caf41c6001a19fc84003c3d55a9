@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+		<table border="1">
+			<td>
+	<form action="join.jsp">
+			<input type="submit" name="회원가입"><br>	
+	</form>
+	<form action="Login.jsp">
+			<input type="submit" value="로그인">
+	</form>
+			</td>
+		</table>
+</body>
+</html>

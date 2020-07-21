@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<!-- form : 어떤 서버페이지에 어떤 값을 보낼지 설정, 보낼 값은 반드시 이 태그 안에 입력 -->
+	<!-- input, select, textarea -->
+	<form action="ex01Form">
+	<!-- 1.어떤 서버페이지로 보낼지 지정 -->
+	
+		<input type="text" name="id" placeholder="아이디">
+		<br><input type="password" name="password" placeholder="비밀번호">
+		<!-- 2.각각의 input이 어떤 내용인지 지정해서 name을 붙여야함 -->
+		<br>
+		운동 <input type="checkbox" name="hobit">
+		독서 <input type="checkbox" name="hobit">
+		코딩 <input type="checkbox" name="hobit">
+		<!-- 중복 가능한 값을 선택하는 checkbox -->
+		<br>
+		남자 <input type="radio" name="gender">
+		여자 <input type="radio" name="gender">
+		<!-- 단일 값을 선택하는 radio -->
+		<input type="submit" value="로그인">
+		<!-- 3.서버로 값을 보내는 버튼 submit -->
+	</form>
+	
+</body>
+</html>

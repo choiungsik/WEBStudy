@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<%
+	Cookie[] cookies = request.getCookies(); // 하나만 생성되는게 아니라 여러 값이 나오므로 배열형태로 저장
+	
+	for(int i = 0; i<cookies.length; i++){
+		if(cookies[i].getName().equals("id")){
+			out.print(cookies[i].getValue());
+		}
+	}
+	%>
+</body>
+</html>

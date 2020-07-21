@@ -1,0 +1,13 @@
+INDEX VERSION 1.131+C:\Users\smhrd\Desktop\WEBStudy\.metadata\.plugins\org.eclipse.jdt.core
+1167540814.index
+4233634828.index
+788907769.index
+4184654627.index
+4229207025.index
+707554088.index
+2250130128.index
+661600371.index
+1699837366.index
+3586640587.index
+3700199078.index
+192081947.index

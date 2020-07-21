@@ -1,0 +1,13 @@
+INDEX VERSION 1.131
+C:\Users\smhrd\Desktop\WEBStudy\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2437958687.index
+\JDBC_copy\src
+C:\Users\smhrd\Desktop\WEBStudy\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1944995940.index
+\JDBC_copy\src
+C:\Users\smhrd\Desktop\WEBStudy\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\243530944.index
+\test1\src
+C:\Users\smhrd\Desktop\WEBStudy\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3141390418.index
+\Cookie\src
+C:\Users\smhrd\Desktop\WEBStudy\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\361494013.index
+\Seccion\src
+C:\Users\smhrd\Desktop\WEBStudy\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\105383260.index
+\JSP\src
